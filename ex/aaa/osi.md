@@ -150,15 +150,19 @@ https://support.microsoft.com/zh-tw/help/314868/how-to-use-tracert-to-troublesho
 tracert www.pchome.com.tw
 
 在上限 30 個躍點上 Tracing route to 11.1.0.1 over a maximum of 30 hops
-追蹤 www.pchome.com.tw [210.59.230.39] 的路由:
+
+C:\Users\KSUIE>tracert www.google.com
+
+追蹤 www.google.com [172.217.24.4] 的路由:
 
   1    <1 ms    <1 ms    <1 ms  172.20.155.254
-  2    10 ms     5 ms     6 ms  172.16.190.253
-  3    <1 ms    13 ms     1 ms  120-114-151-14.ksu.edu.tw [120.114.151.14]
+  2    <1 ms    <1 ms    <1 ms  172.16.190.253
+  3    13 ms     9 ms     3 ms  120-114-151-14.ksu.edu.tw [120.114.151.14]
   4     *        *        *     要求等候逾時。
   5     *        *        *     要求等候逾時。
   6     *        *        *     要求等候逾時。
   7     *        *        *     要求等候逾時。
+  8     *        *        *     要求等候逾時。
 ```
 ### TCP vs UDP 
 ```
