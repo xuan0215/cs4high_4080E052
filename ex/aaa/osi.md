@@ -250,7 +250,16 @@ C:\Users\KSUIE>tracert www.ksu.edu.tw
 ```
 ### TCP vs UDP 
 ```
+
+傳輸控制協定  TCP (Transmission Control Protocol)
+用戶資料包協定 UDP (User Datagram Protocol)
 TCP vs UDP Comparison
+由於UDP缺乏可靠性且屬於無連接協定，所以應用程式通常必須容許一些遺失、錯誤或重複的封包。某些應用程式（如TFTP）可能會根據需要在應用程式層中添加基本的可靠性機制。[1]
+
+一些應用程式不太需要可靠性機制，甚至可能因為引入可靠性機制而降低效能，所以它們使用UDP這種缺乏可靠性的協定。串流媒體，即時多人遊戲和IP語音（VoIP）是經常使用UDP的應用程式。 在這些特定應用中，丟包通常不是重大問題。如果應用程式需要高度可靠性，則可以使用諸如TCP之類的協定。
+
+
+
 https://www.youtube.com/watch?v=uwoD5YsGACg
 ```
 
@@ -297,3 +306,6 @@ https://www.youtube.com/watch?v=tOj8MSEIbfA
 
 ```
 
+802.11g
+802.11n
+CSMA CA
